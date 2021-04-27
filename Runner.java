@@ -1,9 +1,12 @@
-package L9_Assn1;
+package L9_Assn3;
 
 public class Runner {
     public static void main(String[] args){
-        ClockExtended cl = new ClockExtended(14,37,56);
-        cl.display();
+        PhdStudent ps1 = new PhdStudent();
+        gradStudent gs1 = new gradStudent();
+
+        ps1.takeExam();
+        gs1.takeExam();
     }
 }
 }
